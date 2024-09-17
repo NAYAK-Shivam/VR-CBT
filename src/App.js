@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
+/*import Quest from "./components/Quest";*/
 import Services from "./components/Services";
 import Forum from "./components/Forum";
 import ContactUs from "./components/ContactUs";
@@ -31,6 +32,7 @@ const App = () => {
             <Route path="/forum" element={<Forum />} />
             <Route path="/mood-tracking" element={<MoodTracking />} />
             <Route path="/catch-thought" element={<CatchThought />} />
+            {/*<Route path="/Quest" element={<Quest />} />*/}
           </Routes>
         </div>
       </Router>
