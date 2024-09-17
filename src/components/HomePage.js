@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className="homepage-container">
       <header className="content">
-        <h1>Welcome to VR CBT Therapy</h1>
+        <h1>Welcome to Saathi : A VR-CBT Therapy Platform</h1>
         <p>Experience the future of mental health treatment with VR.</p>
         <div className="button-container">
           <Link to="/login">
